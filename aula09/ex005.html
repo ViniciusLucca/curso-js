@@ -17,6 +17,13 @@
 <body>
     <h1>Estudando o DOM</h1>
     <p>Resultado</p>
+    <p>Olá <strong>mundo!</strong></p>
     <div>Clique aqui!</div>
+
+    <script>
+        const p1 = window.document.getElementsByTagName('p')[1]
+        window.alert(p1.innerText)
+        window.alert(p1.innerHTML)
+    </script>
 </body>
 </html>
