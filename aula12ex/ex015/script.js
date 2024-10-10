@@ -46,6 +46,6 @@ function calcularIdade()
         faixaEtaria = "idoso"
     }
 
-    imagem.src = `imagens/${genero}-${faixaEtaria}.jpg`
+    imagem.setAttribute('src', `imagens/${genero}-${faixaEtaria}.jpg`)
     res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
 }
