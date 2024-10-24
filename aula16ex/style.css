@@ -1,0 +1,36 @@
+:root{
+    --corManha: rgb(207, 191, 147);
+    --corDia: rgb(255, 204, 65);
+    --corTarde: rgb(199,100,100);
+    --corNoite: rgb(15,0,98);
+}
+
+body
+{
+    background-color: rgb(70, 142, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.466);
+}
+main
+{
+    /* margin:auto; */
+    text-align: center;
+}
+
+section
+{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    color: black;
+}
+
+footer{
+    padding-top: 15px;
+}

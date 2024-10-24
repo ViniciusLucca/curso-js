@@ -11,8 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "runtimeExecutable": "C:/Program Files/node.exe",
             "program": "${file}",
-            "runtimeExecutable": "C:/Program Files/node.exe"
         }
     ]
 }

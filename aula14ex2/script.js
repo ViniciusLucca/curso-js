@@ -10,7 +10,7 @@ function pegarDados()
     if (txtIndice.value == '')
     {
         alert("insira dados válidos")
-        return
+        return "return"
     }
     indice = Number(txtIndice.value)
 }
@@ -18,7 +18,14 @@ function pegarDados()
 function fazerTaboada()
 {
     saida.innerText = '';
-    pegarDados()
+    if (pegarDados() == "return")
+    {
+        return
+    }
     for(i = 1; i<=10; i++)
-    {saida.innerHTML += `${indice} x ${i} = ${indice*i}\n`}
+    {
+        let option = document.createElement("option")
+        option.text = `${indice} x ${i} = ${indice*i}\n`
+        saida.add(option, saida[i]) 
+    }
 }
