@@ -30,6 +30,7 @@ function adicionar()
     let item = document.createElement("option")
     item.text = `Número ${indice.value} adicionado`
     slct_output.add(item,numeros.length)
+    //slct_output.appendChild(item)
 }
 
 function finalizar()
